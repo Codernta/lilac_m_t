@@ -1,11 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:lilac_mt/model/user_model.dart';
-import 'package:lilac_mt/model/video_model.dart';
-import 'package:lilac_mt/repository/app_constants.dart';
+import 'package:lilac_mt/presentation/auth/auth_page.dart';
 import 'package:lilac_mt/repository/shared_preference_helper.dart';
-import 'package:lilac_mt/view/auth/auth_page.dart';
 import 'package:lilac_mt/widget/custom_widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:lilac_mt/model/data_model.dart';
 import 'package:lilac_mt/model/user_model.dart';
 import 'package:lilac_mt/model/video_model.dart';
 

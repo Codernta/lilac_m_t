@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:lilac_mt/presentation/auth/auth_page.dart';
+import 'package:lilac_mt/presentation/home/home_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:lilac_mt/controller/home/home_provider.dart';
 import 'package:lilac_mt/controller/profile/profile_provider.dart';
@@ -9,8 +11,6 @@ import 'package:lilac_mt/model/data_model.dart';
 import 'package:lilac_mt/model/user_model.dart';
 import 'package:lilac_mt/model/video_model.dart';
 import 'package:lilac_mt/repository/app_constants.dart';
-import 'package:lilac_mt/view/auth/auth_page.dart';
-import 'package:lilac_mt/view/home/home_page.dart';
 import 'package:lilac_mt/widget/custom_widgets.dart';
 import 'package:provider/provider.dart';
 

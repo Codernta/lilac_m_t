@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:282757741661:android:0023985f85cd34c8a7e1b4",
+        "mobilesdk_app_id": "1:282757741661:android:733d33cb1ee81b7aa7e1b4",
         "android_client_info": {
-          "package_name": "com.example.lilac_mt"
+          "package_name": "com.app.lilac"
         }
       },
       "oauth_client": [],

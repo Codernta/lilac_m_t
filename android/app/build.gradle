@@ -27,7 +27,7 @@ apply plugin: 'com.google.gms.google-services'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace "com.example.lilac_mt"
+    namespace "com.app.lilac"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -45,8 +45,8 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.lilac_mt"
-        minSdkVersion 19
+        applicationId "com.app.lilac"
+        minSdkVersion flutter.minSdkVersion
         compileSdkVersion 34
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()

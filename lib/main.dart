@@ -2,7 +2,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lilac_mt/view/splash/splash_screen.dart';
+import 'package:lilac_mt/presentation/splash/splash_screen.dart';
 import 'package:lilac_mt/controller/home/home_provider.dart';
 import 'package:lilac_mt/controller/profile/profile_provider.dart';
 import 'package:lilac_mt/controller/auth/auth_provider.dart';
@@ -24,19 +24,19 @@ void main() async {
         ChangeNotifierProvider(create: (context) => HomeProvider()),
         ChangeNotifierProvider(create: (context) => ProfileProvider()),
       ],
-      child: const MyApp(),
+      child: const MainApp(),
     ),
   );
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class MainApp extends StatefulWidget {
+  const MainApp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<MainApp> createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyAppState extends State<MainApp> {
 
   @override
   void initState() {

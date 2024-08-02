@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lilac_mt/controller/home/home_provider.dart';
 import 'package:lilac_mt/controller/profile/profile_provider.dart';
+import 'package:lilac_mt/presentation/profile/profile_page.dart';
 import 'package:lilac_mt/repository/app_constants.dart';
 import 'package:lilac_mt/utilities/extensions.dart';
 import 'package:lilac_mt/utilities/text_styles.dart';
-import 'package:lilac_mt/view/profile/profile_page.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
 

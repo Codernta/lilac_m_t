@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lilac_mt/model/user_model.dart';
+import 'package:lilac_mt/presentation/auth/auth_page.dart';
+import 'package:lilac_mt/presentation/home/home_page.dart';
 import 'package:lilac_mt/repository/app_constants.dart';
-import 'package:lilac_mt/view/auth/auth_page.dart';
-import 'package:lilac_mt/view/home/home_page.dart';
+
 import 'package:lilac_mt/widget/custom_widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

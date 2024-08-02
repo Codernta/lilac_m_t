@@ -1,4 +1,4 @@
-package com.example.lilac_mt
+package com.app.lilac
 
 import io.flutter.embedding.android.FlutterActivity
 

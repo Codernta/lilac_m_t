@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lilac_mt/controller/profile/profile_provider.dart';
-import 'package:lilac_mt/view/auth/auth_page.dart';
-import 'package:lilac_mt/view/home/home_page.dart';
+import 'package:lilac_mt/presentation/auth/auth_page.dart';
+import 'package:lilac_mt/presentation/home/home_page.dart';
 import 'package:lilac_mt/widget/custom_widgets.dart';
 import 'package:provider/provider.dart';
 
